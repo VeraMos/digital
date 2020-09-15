@@ -372,7 +372,7 @@ a:hover {
   background-image: url("../img/left.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  top: 50%;
+  top: 90px;
   left: -60px;
   outline: none;
   padding: 0;
@@ -388,7 +388,7 @@ a:hover {
   background-image: url("../img/right.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  top: 50%;
+  top: 90px;
   right: -60px;
   outline: none;
   padding: 0;
@@ -400,4 +400,142 @@ a:hover {
 
 .prev-right:focus, .prev-left:focus {
   outline: none;
+}
+
+.main-form {
+  background: url('../img/bg-form.png') #2F9E31;
+  background-repeat: no-repeat;
+  height: 562px;
+  background-position-y: center;
+}
+
+.main-form__img {
+  height: 747px;
+  width: 50%;
+}
+
+.main-form__img img {
+  margin-top: -130px;
+  display: block;
+  width: 100%;
+}
+
+.main-form__block {
+  width: 50%;
+  padding: 65px 0 0;
+  max-width: 600px;
+}
+
+.main-form__ttl {
+  font-family: 'a-futuraround';
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.227554px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+
+.main-form input {
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  padding: 10px 10px 10px 0;
+  margin-bottom: 28px;
+  min-width: 284px;
+}
+
+.main-form input::placeholder {
+  color: #fff;
+  letter-spacing: 0.227554px;
+}
+
+.main-form__btn {
+  background: linear-gradient(225deg, #FFFFFF 0.09%, #E4E4E4 99.49%);
+  color: #292929;
+  margin: 10px 0 68px;
+}
+
+.main-form__btn:hover {
+  color: #2F9E31;
+}
+
+.main-form__email, .main-form__tel, .main-form__address {
+  color: #fff;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.main-form__email:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 13px;
+  background-image: url('../img/form-email.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-form__tel:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  background-image: url('../img/form-tel.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-form__address:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  height: 18px;
+  background-image: url('../img/form-addres.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advant {
+  padding: 130px 0 80px;
+  background: #fff;
+}
+
+.advant-item {
+  max-width: 360px;
+  margin: 15px;
+  background-image: url('../img/bg-advant.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position-y: 75px;
+}
+
+.advant-item__ttl {
+  font-family: 'a-futuraround';
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.227554px;
+  color: #131313;
+  margin-bottom: 14px;
+}
+
+.advant-item__text {
+  max-width: 365px;
+}
+
+.advant-item img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
