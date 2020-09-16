@@ -159,6 +159,8 @@ a:hover {
 
 .banner-block {
   padding: 60px 0 110px;
+  z-index: 2;
+  position: relative;
 }
 
 .banner-logo {
@@ -684,12 +686,12 @@ a:hover {
 }
 
 .layout__grid-item:first-child {
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid #ccc;
 }
 
 .layout__grid-item {
   height: 100%;
-  border-right: 1px solid #e5e5e5;
+  border-right: 1px solid #ccc;
 }
 
 .our-help__wpr {
