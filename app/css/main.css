@@ -681,12 +681,12 @@ a:hover {
 }
 
 .layout__grid-item:first-child {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid #e5e5e5;
 }
 
 .layout__grid-item {
   height: 100%;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #e5e5e5;
 }
 
 .our-help__wpr {
