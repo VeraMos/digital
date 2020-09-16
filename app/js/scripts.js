@@ -15,12 +15,19 @@ $(document).ready(function () {
         nextArrow: '<button class="prev-right"></button>',
         responsive: [
     	{
-	      breakpoint: 576,
+	      breakpoint: 769,
 	      settings: {
 	        slidesToShow: 1,
 	        slidesToScroll: 1,
 	      	}
-    	}
+    	},
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          }
+      }
     	]
 
        });

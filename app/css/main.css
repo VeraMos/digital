@@ -159,7 +159,7 @@ a:hover {
 
 .banner-block {
   padding: 60px 0 110px;
-  z-index: 2;
+  z-index: 5;
   position: relative;
 }
 
@@ -478,7 +478,7 @@ a:hover {
   border-top: transparent;
   padding: 10px 10px 10px 0;
   margin-bottom: 28px;
-  min-width: 284px;
+  min-width: 47%;
 }
 
 .main-form input::placeholder {
@@ -561,7 +561,7 @@ a:hover {
 }
 
 .advant-item img {
-  
+
 }
 
 .advant-item__ttl {
@@ -590,7 +590,7 @@ a:hover {
 
 .footer-bottom {
   background: #1F1F1F;
-  padding: 30px 0 33px;
+  padding: 30px 20px 33px;
   color: #fff;
 }
 
@@ -641,7 +641,7 @@ a:hover {
 }
 
 .footer_top {
-  padding: 40px 0 34px;
+  padding: 40px 20px 34px;
 }
 
 .footer__ttl {
@@ -740,4 +740,12 @@ a:hover {
 .clients-slider {
   z-index: 2;
   position: relative;
+}
+
+.footer-menu.last {
+  margin-top: 43px;
+}
+
+.banner__mobile-block {
+  display: none;
 }

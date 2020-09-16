@@ -8,17 +8,9 @@
 
 @font-face {
     font-family: 'FuturaPT';
-    src: url('FuturaPT-Вold.woff2') format('woff2'),
+    src: url('FuturaPT-Bold.woff2') format('woff2'),
         url('FuturaPT-Bold.woff') format('woff');
     font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'FuturaPT';
-    src: url('FuturaPT-ExtraВold.woff2') format('woff2'),
-        url('FuturaPT-ExtraВold.woff') format('woff');
-    font-weight: 900;
     font-style: normal;
 }
 
