@@ -560,6 +560,10 @@ a:hover {
   background-position-y: 75px;
 }
 
+.advant-item img {
+  
+}
+
 .advant-item__ttl {
   font-family: 'a-futuraround';
   font-weight: bold;
