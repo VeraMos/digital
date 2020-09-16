@@ -171,6 +171,8 @@ a:hover {
   font-size: 50px;
   line-height: 58px;
   text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 .banner-ttl {
@@ -188,11 +190,13 @@ a:hover {
 .banner-img {
   position: absolute;
   top: 21px;
-  right: 0;
+  right: -132px;
 }
 
 .banner-img img {
   width: 92%;
+  z-index: 2;
+  position: relative;
 }
 
 .servises__list {
@@ -248,10 +252,24 @@ a:hover {
 }
 
 .our-help {
-  background: url('../img/bg-2.png') #F2F2F2;
+  background: url('../img/bg-3.png') #F2F2F2;
   background-repeat: no-repeat;
   padding: 93px 0 66px;
-  background-position: center;
+  background-position: 51% 177px;
+  position: relative;
+}
+
+.our-help:before {
+  content: '';
+  position: absolute;
+  top: 150px;
+  left: 38%;
+  background-image: url('../img/img2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 366px;
+  height: 724px;
+  z-index: 10;
 }
 
 .our-help__list {
@@ -267,6 +285,11 @@ a:hover {
   padding: 70px 30px 0 70px;
   position: relative;
   margin-bottom: 45px;
+  z-index: 2;
+}
+
+.our-help__block:hover {
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
 }
 
 .our-help__ttl {
@@ -294,18 +317,21 @@ a:hover {
   display: block;
   margin: 0 auto 52px;
   max-width: 750px;
+  z-index: 15;
 }
 
 .our-help__btn {
   margin: 0 auto;
+  z-index: 2;
+  position: relative;
 }
 
 .our-help__block:nth-child(1) {
-  margin-left: -50px;
+  margin-left: 1px;
 }
 
 .our-help__block:nth-child(2) {
-  margin-right: -50px;
+  margin-right: 1px;
 }
 
 .our-help__block:nth-child(3) {
@@ -403,10 +429,12 @@ a:hover {
 }
 
 .main-form {
-  background: url('../img/bg-form.png') #2F9E31;
+  background: #2F9E31;
   background-repeat: no-repeat;
   height: 562px;
   background-position-y: center;
+  z-index: 2;
+  position: relative;
 }
 
 .main-form__img {
@@ -418,13 +446,13 @@ a:hover {
   margin-top: -130px;
   display: block;
   width: 100%;
-  max-height: 790px;
 }
 
 .main-form__block {
   width: 50%;
   padding: 65px 0 0;
   max-width: 600px;
+  height: 100%;
 }
 
 .main-form__ttl {
@@ -471,6 +499,11 @@ a:hover {
   letter-spacing: 0.227554px;
 }
 
+.main-form__email:hover, .main-form__tel:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .main-form__email:before {
   content: "";
   position: absolute;
@@ -508,7 +541,7 @@ a:hover {
 }
 
 .advant {
-  padding: 130px 0 80px;
+  padding: 87px 0 80px;
   background: #fff;
 }
 
@@ -632,7 +665,7 @@ a:hover {
   padding-left: 48px;
 }
 
-/*.layout__grid {
+.layout__grid {
   position: absolute;
   max-width: 1170px;
   width: 100%;
@@ -648,19 +681,19 @@ a:hover {
 }
 
 .layout__grid-item:first-child {
-  border-left: 1px solid #f9f9f9;
+  border-left: 1px solid #ccc;
 }
 
 .layout__grid-item {
   height: 100%;
-  border-right: 1px solid #f9f9f9;
+  border-right: 1px solid #ccc;
 }
 
 .our-help__wpr {
   position: relative;
   background: #F2F2F2;
   padding-bottom: 43px;
-}*/
+}
 
 .popup-input {
   background: transparent;
@@ -693,4 +726,9 @@ a:hover {
   line-height: 27px;
   text-align: center;
   letter-spacing: 0.227554px;
+}
+
+.clients-slider {
+  z-index: 2;
+  position: relative;
 }

@@ -1,6 +1,9 @@
-@media screen and (max-height: 750px) {
-
-
+@media screen and (min-width: 1400px) {
+	.main-form__img img {
+	  margin-top: -200px;
+	  display: block;
+	  width: 100%;
+	}
 }
 
 @media screen and (max-width: 767px) {
