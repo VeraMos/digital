@@ -227,7 +227,7 @@
      }
 
      .our-help {
-     	padding: 50px 30px;
+     	padding: 34px 30px;
      	background-size: 85%;
      	background-position: 51% 135px;
      }
@@ -384,6 +384,24 @@
 	.footer-bottom {
 		padding: 37px 25px;
 	}
+
+	.servises {
+    	margin-bottom: 40px;
+	}
+
+	.our-help__wpr {
+		padding-bottom: 0;
+	}
+
+	.advant {
+    	padding: 35px 0 50px;
+	}
+
+	.clients-item {
+    	max-width: 100%;
+    	margin: 15px 35px;
+	}
+}
 
 @media screen and (max-width: 450px) {
 	.header-email {
