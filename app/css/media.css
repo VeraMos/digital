@@ -1,9 +1,24 @@
+@media screen and (min-width: 1800px) {
+
+	.banner-img img {
+	  right: 200px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+
+	.banner-img img {
+	  right: 150px;
+	}
+}
+
 @media screen and (min-width: 1400px) {
 	.main-form__img img {
 	  margin-top: -200px;
 	  display: block;
 	  width: 100%;
 	}
+
 }
 
 @media screen and (max-width: 767px) {
